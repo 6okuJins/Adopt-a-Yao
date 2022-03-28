@@ -61,13 +61,14 @@ body {
     box-shadow: 5px 5px 10px grey;
     border-radius: 200px;
     border: 5px solid #CFBAF0;
-    background: #FDE4CF4D
+    background: #F1C0E84D
 }
 
 .text-box {
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: #FBF8CC;
 }
 .image-box img {
     width: 250px;
@@ -78,6 +79,7 @@ body {
     font-family: 'Luckiest Guy', cursive;
     font-size: 50px;
     margin-bottom: 0px;
+    text-shadow: 2px 2px grey;
 }
 .text-box p {
     font-family: Poppins, sans-serif;
@@ -88,8 +90,8 @@ body {
     border-radius: 30px;
     font-size: 20px;
     font-family: Poppins, sans-serif;
-    border: 0px;
+    border: 1px solid #FBF8CC;
     padding: 8px 16px;
     box-shadow: 3px 3px 3px grey;
-
+    color: #FBF8CC;
 }
