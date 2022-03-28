@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Pacifico&family=Poppins:wght@600&display=swap');
 
 body {
     display: flex;
@@ -23,7 +23,8 @@ body {
     margin-left: 10px;
 }
 
-#icon {
+#icon,
+.image-box img {
     border-radius: 50%;
     height: 50px;
     border: 8px solid #FBF8CC;
@@ -47,4 +48,48 @@ body {
     font-family: poppins, sans-serif;
     font-size: 32px;
     color: #A3C4F3;
+}
+
+.welcome {
+    background: #F1C0E8;
+}
+.media-box {
+    display: flex;
+    margin: 200px 200px;
+    align-items: center;
+    padding: 60px;
+    box-shadow: 5px 5px 10px grey;
+    border-radius: 200px;
+    border: 5px solid #CFBAF0;
+    background: #FDE4CF4D
+}
+
+.text-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.image-box img {
+    width: 250px;
+    height: auto;
+}
+
+.text-box h1 {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+.text-box p {
+    font-family: Poppins, sans-serif;
+}
+
+.text-box button {
+    background-color: #CFBAF0;
+    border-radius: 30px;
+    font-size: 20px;
+    font-family: Poppins, sans-serif;
+    border: 0px;
+    padding: 8px 16px;
+    box-shadow: 3px 3px 3px grey;
+
 }
