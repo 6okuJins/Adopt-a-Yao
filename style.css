@@ -55,7 +55,7 @@ body {
 }
 .media-box {
     display: flex;
-    margin: 200px 200px;
+    margin: 80px 200px;
     align-items: center;
     padding: 60px;
     box-shadow: 5px 5px 10px grey;
@@ -94,4 +94,45 @@ body {
     padding: 8px 16px;
     box-shadow: 3px 3px 3px grey;
     color: #FBF8CC;
+}
+
+.line-up {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #8EECF5;
+    padding: 50px;
+}
+
+.container {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Yao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: flex-start;
+    width: 250px;
+    min-height: 250px;
+    padding: 10px;
+    margin: 20px;
+    border: 3px solid;
+    border-radius: 40px;
+}
+
+.Yao img {
+    width: 150px;
+    border-radius: 20px;
+    border: 10px solid #FBF8CC;
+}
+
+.Yao h2 {
+    margin: 0px;
+}
+
+.Yao h3 {
+    margin-top: 0px;
 }
