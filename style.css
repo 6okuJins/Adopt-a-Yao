@@ -3,12 +3,23 @@
 body {
     display: flex;
     flex-direction: column;
+    overflow: hidden;
+    margin: 0px;
 }
 
+.header {
+    display:flex;
+    padding: auto;
+    background-color: #FDE4CF;
+    height: 90px;
+}
 .left {
     font-family: Pacifico, cursive;
+    font-size: 42px;
     display:flex;
     align-items: center;
+    gap: 12px;
+    margin-left: 10px;
 }
 #icon {
     border-radius: 50%;
