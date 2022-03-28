@@ -12,6 +12,7 @@ body {
     padding: auto;
     background-color: #FDE4CF;
     height: 90px;
+    justify-content: space-between;
 }
 .left {
     font-family: Pacifico, cursive;
@@ -21,9 +22,29 @@ body {
     gap: 12px;
     margin-left: 10px;
 }
+
 #icon {
     border-radius: 50%;
     height: 50px;
     border: 8px solid #FBF8CC;
     box-shadow: 2px 2px 3px grey;
+}
+
+.right {
+    display:flex;
+    align-items: center;
+}
+.nav-links {
+    display: flex;
+    margin: 0px 16px;
+    padding: 0px;
+    gap: 60px;
+    list-style-type: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-family: poppins, sans-serif;
+    font-size: 32px;
+    color: #A3C4F3;
 }
